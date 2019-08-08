@@ -9,6 +9,9 @@ Setting up Beanstalk at AWS:
 - eb terminate 'environment-name' (will delete the entire environment)
 
 Useful commands / hints:
+- for IAM: create a group and user with sufficient rights for Beanstalk
+--> create a role with 'AWSElasticBeanstalkFullAccess'
+--> create a user and assign the role
 - eb list (lists all available environments of the app)
 - create ssl cert: openssl req -x509 -newkey rsa:2048 -keyout metadoc-clever-apps.key -out metadoc-clever-apps.crt -days 365 -nodes
 --> only keys up to 2048bits are supported by the AWS Cert Manager!!! 4096bit only working through IAM upload
