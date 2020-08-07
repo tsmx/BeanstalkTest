@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "author": "",
+  "author": "tsmx",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "keywords": [
+    "AWS",
+    "Beanstalk",
+    "NodeJS",
+    "Express",
+    "Tutorial"
+  ]
 }

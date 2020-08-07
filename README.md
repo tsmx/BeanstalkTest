@@ -1,9 +1,9 @@
-# Beanstalk Test
+# AWS Beanstalk Test with NodeJS and Express
 
 This is a (very simple) test project to demonstrate and test the AWS Elastic Beanstalk stack with NodeJS.
 
 Setting up Beanstalk at AWS:
-- in the app main folder runthe following command
+- in the app main folder run the following command
   ```
   eb init (IAM credentials with rights to Beantsalk needed)
   eb create 'environment-name'
